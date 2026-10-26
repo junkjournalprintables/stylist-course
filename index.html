@@ -1,116 +1,107 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Стиль как навык — от любви к моде к профессии стилиста</title>
-<meta name="description" content="Разберись в своём цветотипе, типе фигуры и собери капсульный гардероб — а если захочешь, преврати это в профессию стилиста. Обучение Fashion Factory.">
-<meta name="robots" content="index,follow">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f6efe8;--card:#fffdfb;--ink:#3a322c;--muted:#8a7d72;--rose:#c58f82;--rose-d:#a9705f;--gold:#b8956a;--line:#ece0d6}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Montserrat",system-ui,sans-serif;line-height:1.7;overflow-x:hidden}
-.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
-.blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;z-index:0;pointer-events:none}
-.b1{width:380px;height:380px;background:#e9c6bd;top:-120px;right:-120px}.b2{width:320px;height:320px;background:#e7d3bf;top:420px;left:-130px}
-header.hero,main,footer{position:relative;z-index:1}
-.hero{padding:70px 0 34px;text-align:center}
-.eyebrow{letter-spacing:.24em;text-transform:uppercase;font-size:12px;font-weight:600;color:var(--rose-d)}
-h1{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(34px,6vw,62px);line-height:1.08;margin:.25em 0 .2em}
-h1 em{font-style:italic;color:var(--rose-d)}
-.lead{font-size:clamp(16px,2vw,20px);color:var(--muted);max-width:680px;margin:0 auto 26px}
-.cta{display:inline-block;background:var(--rose-d);color:#fff;text-decoration:none;font-weight:600;font-size:16px;padding:15px 34px;border-radius:999px;box-shadow:0 10px 26px rgba(169,112,95,.30);transition:transform .15s,background .15s}
-.cta:hover{background:var(--rose);transform:translateY(-2px)}
-.cta.big{font-size:18px;padding:17px 44px}
-.note{font-size:13px;color:var(--muted);margin-top:14px}
-section{padding:40px 0}
-h2{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(26px,4vw,40px);text-align:center;margin:0 0 8px}
-.sub{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 24px}
-.card .ic{font-size:26px}.card h3{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:22px;margin:10px 0 6px}
-.card p{margin:0;color:#6b5f55;font-size:15px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-@media(max-width:640px){.two{grid-template-columns:1fr}}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
-.panel h3{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:24px;margin:0 0 10px}
-ul.clean{list-style:none;padding:0;margin:0}ul.clean li{padding:7px 0 7px 28px;position:relative;color:#5f534a}
-ul.clean li::before{content:"✦";position:absolute;left:0;color:var(--gold)}
-.band{background:linear-gradient(135deg,#efe0d4,#fffdfb);border:1px solid var(--line);border-radius:22px;padding:40px 28px;text-align:center;margin:30px 0}
-.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:10px}
-.why div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.why b{font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--rose-d)}
-footer{text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:30px;padding:30px 0 60px}
-.disc{font-size:13px;color:var(--muted);max-width:720px;margin:18px auto 0;background:#f0e5db;border-radius:12px;padding:12px 16px}
-</style></head>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Стиль как навык — курс стилиста | Fashion Factory</title>
+  <meta name="description" content="Разберись в цветотипе, особенностях фигуры и создании гардероба. Узнай о курсе Fashion Factory для себя и будущей профессии стилиста.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#f4f1eb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#f4f1eb;--paper2:#e9e4dc;--ink:#171715;--muted:#77736d;--line:#d8d3cb;--white:#fbfaf7;--accent:#b64f3c;--olive:#85846b;--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65}a{color:inherit}svg{display:block}.wrap{width:min(1180px,calc(100% - 52px));margin-inline:auto}
+    .ad-label{padding:8px 18px;background:var(--ink);color:#f7f4ee;text-align:center;font-size:10px;letter-spacing:.12em;text-transform:uppercase;line-height:1.45}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);gap:20px}.brand{font-size:12px;font-weight:700;letter-spacing:.22em;text-decoration:none;text-transform:uppercase;white-space:nowrap}.brand span{display:block;font-size:9px;font-weight:500;letter-spacing:.26em;color:var(--muted);margin-top:2px}.navlinks{display:flex;gap:30px;align-items:center}.navlinks a{font-size:11px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:#55524c}.navlinks a:hover{color:var(--accent)}.nav-cta{border:1px solid var(--ink);padding:9px 15px;font-size:10px!important;color:var(--ink)!important}.nav-cta:hover{background:var(--ink);color:var(--white)!important}@media(max-width:700px){.nav{height:64px}.navlinks a:not(.nav-cta){display:none}.wrap{width:min(100% - 34px,1180px)}}
+    .hero{padding:42px 0 68px}.hero-grid{display:grid;grid-template-columns:1fr 1.04fr;align-items:center;gap:50px}.kicker,.section-kicker{font-size:10px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--accent)}.kicker{display:flex;align-items:center;gap:10px}.kicker:before{content:"";height:1px;width:34px;background:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font:500 clamp(49px,7vw,88px)/.98 var(--serif);letter-spacing:-.05em;margin:20px 0 20px;max-width:600px}h1 em{font-weight:500;color:var(--accent)}.hero-copy .lead{max-width:490px;color:#5f5b55;font-size:16px;line-height:1.75;margin:0 0 26px}.actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:16px;padding:15px 20px;background:var(--ink);color:white;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--ink);transition:.2s}.button:hover{background:var(--accent);border-color:var(--accent);transform:translateY(-2px)}.button .arrow{font-size:17px;line-height:1}.micro{font-size:11px;color:var(--muted);margin:15px 0 0;letter-spacing:.03em}.hero-art{position:relative;min-height:500px;background:#ded9d0;overflow:hidden}.hero-art:after{content:"";position:absolute;inset:13px;border:1px solid rgba(23,23,21,.18);pointer-events:none}.hero-art svg{width:100%;height:100%;min-height:500px}.art-caption{position:absolute;z-index:2;bottom:28px;left:27px;background:var(--paper);padding:10px 14px;font-size:9px;letter-spacing:.16em;text-transform:uppercase}.art-number{position:absolute;top:24px;right:26px;z-index:2;font:italic 15px var(--serif);color:#5a5750}.art-stamp{position:absolute;top:43%;right:8%;z-index:2;border:1px solid rgba(23,23,21,.65);border-radius:50%;height:92px;width:92px;display:grid;place-content:center;text-align:center;font-size:8px;letter-spacing:.14em;text-transform:uppercase;line-height:1.5;transform:rotate(12deg)}
+    @media(max-width:850px){.hero{padding:34px 0 52px}.hero-grid{grid-template-columns:1fr;gap:30px}.hero-copy{max-width:700px}.hero-art,.hero-art svg{min-height:410px}}@media(max-width:500px){.hero{padding-top:27px}h1{font-size:53px}.hero-copy .lead{font-size:14px}.hero-art,.hero-art svg{min-height:340px}.art-stamp{height:72px;width:72px;font-size:7px;right:7%}}
+    .ticker{border-block:1px solid var(--ink);padding:12px 0;overflow:hidden;white-space:nowrap}.ticker-inner{display:flex;justify-content:space-around;gap:40px;font-size:9px;font-weight:700;letter-spacing:.23em;text-transform:uppercase}.ticker b{font-weight:500;color:var(--accent)}
+    section{padding:90px 0}.section-head{max-width:700px;margin:0 auto 42px;text-align:center}.section-kicker{margin-bottom:12px}h2{font:500 clamp(37px,5vw,57px)/1.06 var(--serif);letter-spacing:-.035em;margin:0 0 14px}h2 em{color:var(--accent);font-weight:500}.section-head p{color:var(--muted);max-width:590px;margin:0 auto;font-size:14px}
+    .learn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.learn-card{background:var(--white);border:1px solid var(--line);min-width:0}.learn-visual{height:232px;background:#e8e3dc;position:relative;overflow:hidden}.learn-visual svg{width:100%;height:100%}.card-index{position:absolute;top:14px;left:15px;background:var(--paper);padding:4px 8px;font-size:9px;letter-spacing:.15em}.learn-body{padding:23px 24px 26px}.learn-body h3{font:500 26px/1.1 var(--serif);margin:0 0 10px}.learn-body p{font-size:13px;color:#6e6a64;margin:0}.tag{display:inline-block;margin-top:18px;padding-top:10px;border-top:1px solid var(--line);font-size:9px;color:var(--accent);letter-spacing:.16em;text-transform:uppercase}
+    .editorial{background:#191917;color:#f2eee7;padding:84px 0}.editorial-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:72px;align-items:start}.editorial .section-kicker{color:#cf8878}.editorial h2{max-width:430px}.editorial-intro{color:#aaa69e;font-size:14px;max-width:370px}.editorial-note{margin-top:30px;border-left:1px solid #68645d;padding:4px 0 4px 16px;color:#c4beb4;font:italic 16px/1.5 var(--serif)}.path-panels{display:grid;grid-template-columns:1fr 1fr;gap:13px}.path-panel{border:1px solid #46433e;padding:24px 23px 25px;background:#21211f}.path-panel h3{font:500 25px var(--serif);margin:0 0 17px}.path-panel ul{list-style:none;padding:0;margin:0}.path-panel li{position:relative;padding:10px 0 10px 17px;border-top:1px solid #3d3b36;color:#c5c0b7;font-size:12px}.path-panel li:before{content:"/";position:absolute;left:0;color:#d68e7b}.path-panel small{display:block;margin-top:19px;color:#8b877f;font-size:9px;letter-spacing:.13em;text-transform:uppercase}
+    .audience{padding:90px 0}.audience-head{display:grid;grid-template-columns:1fr .65fr;gap:40px;align-items:end;margin-bottom:32px}.audience-head h2{max-width:570px}.audience-head p{color:var(--muted);font-size:13px;max-width:360px;margin:0 0 5px}.aud-grid{border-top:1px solid var(--ink)}.aud-row{display:grid;grid-template-columns:70px 1fr 1.3fr;gap:20px;align-items:center;padding:19px 0;border-bottom:1px solid var(--line)}.aud-num{font:italic 20px var(--serif);color:var(--accent)}.aud-row strong{font:500 22px var(--serif)}.aud-row p{font-size:12px;color:var(--muted);margin:0}
+    .why-section{background:var(--paper2);padding:82px 0}.why-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}.why-copy h2{max-width:400px}.why-copy p{color:#6d6962;font-size:13px;max-width:400px}.why-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #bdb7ad;border-left:1px solid #bdb7ad}.why-item{padding:21px 22px 20px;border-right:1px solid #bdb7ad;border-bottom:1px solid #bdb7ad;min-height:125px}.why-item b{font:500 22px var(--serif)}.why-item p{font-size:11px;color:#6d6962;margin:7px 0 0}.why-item span{color:var(--accent);font-size:9px;letter-spacing:.16em}
+    .final-cta{padding:92px 0;text-align:center;background:#e3ded6}.final-cta h2{max-width:700px;margin:0 auto 15px}.final-cta p{font-size:13px;color:#716c64;margin:0 auto 25px}.final-cta .button{margin-bottom:12px}.final-cta .micro{margin:2px 0 0}
+    footer{background:var(--ink);color:#eeebe4;padding:31px 0 35px}.footer-top{display:flex;justify-content:space-between;gap:30px;align-items:flex-start;border-bottom:1px solid #494741;padding-bottom:20px}.footer-brand{font-size:11px;letter-spacing:.19em;text-transform:uppercase}.footer-brand span{display:block;font:italic 16px var(--serif);letter-spacing:0;color:#bcb7ad;margin-top:4px}.footer-meta{text-align:right;font-size:10px;color:#bdb8af;letter-spacing:.04em}.disc{max-width:760px;padding:16px 0 0;color:#aaa69f;font-size:10px;line-height:1.7}.footer-ad{margin-top:10px!important;color:#d5d0c7!important;font-size:10px!important;letter-spacing:.04em}.footer-end{margin-top:20px;font-size:9px;color:#77736c;letter-spacing:.12em;text-transform:uppercase}
+    @media(max-width:800px){section{padding:68px 0}.learn-grid{grid-template-columns:1fr 1fr}.learn-card:last-child{grid-column:span 2}.editorial-grid,.why-layout{grid-template-columns:1fr;gap:34px}.audience-head{grid-template-columns:1fr;gap:10px}.why-copy h2{max-width:600px}}
+    @media(max-width:560px){.ad-label{font-size:8px;letter-spacing:.06em}.navlinks{gap:0}.nav-cta{padding:8px 10px;font-size:9px!important}.brand{font-size:10px}.brand span{font-size:8px}.learn-grid{grid-template-columns:1fr}.learn-card:last-child{grid-column:auto}.learn-visual{height:210px}.editorial{padding:65px 0}.path-panels{grid-template-columns:1fr}.path-panel{padding:21px}.aud-row{grid-template-columns:34px 1fr;gap:8px;padding:15px 0}.aud-row p{grid-column:2}.aud-row strong{font-size:20px}.why-grid{grid-template-columns:1fr 1fr}.why-item{padding:15px 13px;min-height:119px}.why-item b{font-size:19px}.final-cta{padding:68px 0}.footer-top{display:block}.footer-meta{text-align:left;margin-top:17px}.footer-end{font-size:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
 <body>
-<div style="background:#efe3d8;color:#7d7066;font-size:12px;text-align:center;padding:7px 14px;letter-spacing:.02em">Реклама · Рекламодатель: Fashion Factory school · erid: 2bL9aMPo2e4BA5qnNJQJwLmmo8</div>
-<span class="blob b1"></span><span class="blob b2"></span>
-<header class="hero"><div class="wrap">
-  <p class="eyebrow">Стиль — это не талант, а навык</p>
-  <h1>Научись одевать<br>себя <em>безупречно</em><br>— и, если захочешь,<br>зарабатывать на этом</h1>
-  <p class="lead">Разберись в своём цветотипе, типе фигуры и собери гардероб, который работает на тебя. А дальше — выбирай: стиль для себя или новая профессия стилиста с доходом из любой точки мира.</p>
-  <a class="cta big" href="https://kursy-tut.ru/2785163?erid=2bL9aMPo2e4BA5qnNJQJwLmmo8" target="_blank" rel="nofollow sponsored noopener">Узнать о курсе стилиста →</a>
-  <p class="note">Онлайн-обучение · с нуля · для себя и для профессии</p>
-</div></header>
-<main class="wrap">
-
-<section>
-  <h2>Сначала — разберись в себе</h2>
-  <p class="sub">Три вещи, которые меняют внешний вид сильнее любого шопинга. На курсе ты научишься определять их профессионально.</p>
-  <div class="grid">
-    <div class="card"><div class="ic">🎨</div><h3>Твой цветотип</h3><p>Какие цвета делают лицо свежим и сияющим, а какие — старят и гасят. Мягкое лето, тёплая весна, тёмная зима — и твоя личная палитра.</p></div>
-    <div class="card"><div class="ic">💃</div><h3>Твой тип фигуры</h3><p>Груша, песочные часы, прямоугольник, яблоко — и фасоны, которые подчёркивают достоинства и скрывают то, что хочется скрыть.</p></div>
-    <div class="card"><div class="ic">👗</div><h3>Капсульный гардероб</h3><p>Как из 20 вещей собрать 100 образов, перестать покупать лишнее и каждое утро одеваться за 5 минут и с удовольствием.</p></div>
+  <div class="ad-label">Реклама · Рекламодатель: Fashion Factory school · erid: 2bL9aMPo2e4BA5qnNJQJwLmmo8</div>
+  <div class="wrap">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="brand" href="#top">FORMA<span>Школа личного стиля</span></a>
+      <div class="navlinks"><a href="#learn">О чём курс</a><a href="#for-whom">Кому подойдёт</a><a class="nav-cta" href="#course">К программе <span aria-hidden="true">↗</span></a></div>
+    </nav>
   </div>
-</section>
-
-<section>
-  <h2>Чему ты научишься на курсе</h2>
-  <p class="sub">Полная система стиля Fashion Factory — от базы до работы с клиентами.</p>
-  <div class="two">
-    <div class="panel"><h3>Для себя</h3><ul class="clean">
-      <li>Определять свой цветотип и собирать палитру</li>
-      <li>Подбирать фасоны под тип фигуры</li>
-      <li>Собрать капсулу и базовый гардероб</li>
-      <li>Сочетать цвета, фактуры и принты</li>
-      <li>Собирать образы на любой случай и сезон</li>
-      <li>Делать осознанный шопинг без лишних трат</li>
-    </ul></div>
-    <div class="panel"><h3>Для профессии</h3><ul class="clean">
-      <li>Проводить разбор гардероба клиента</li>
-      <li>Составлять стильные образы под запрос</li>
-      <li>Сопровождать на шопинге (в т.ч. онлайн)</li>
-      <li>Упаковать себя как эксперта и вести соцсети</li>
-      <li>Находить первых клиентов и брать оплату</li>
-      <li>Работать удалённо из любой точки мира</li>
-    </ul></div>
-  </div>
-</section>
-
-<div class="band">
-  <h2>Для кого это</h2>
-  <p class="sub">Если тебе близко хотя бы одно — курс для тебя.</p>
-  <div class="why">
-    <div><b>Для себя</b><p>Хочу всегда выглядеть дорого и уместно, не тратя часы и деньги впустую.</p></div>
-    <div><b>Для смены профессии</b><p>Люблю моду и хочу превратить это в дело, которое приносит доход.</p></div>
-    <div><b>Для доп. дохода</b><p>Нужна гибкая удалённая профессия, совместимая с семьёй и детьми.</p></div>
-    <div><b>Для роста</b><p>Уже помогаю подругам с образами — хочу делать это системно и за деньги.</p></div>
-  </div>
-</div>
-
-<section>
-  <h2>Почему Fashion Factory</h2>
-  <div class="why">
-    <div><b>Онлайн</b><p>Учись в своём темпе из дома, с телефона или ноутбука.</p></div>
-    <div><b>С нуля</b><p>Не нужен опыт — программа ведёт от базы к практике.</p></div>
-    <div><b>Практика</b><p>Реальные разборы и задания, а не только теория.</p></div>
-    <div><b>Поддержка</b><p>Обратная связь и сопровождение на пути к первым клиентам.</p></div>
-  </div>
-  <p style="text-align:center;margin-top:28px"><a class="cta big" href="https://kursy-tut.ru/2785163?erid=2bL9aMPo2e4BA5qnNJQJwLmmo8" target="_blank" rel="nofollow sponsored noopener">Посмотреть программу и условия →</a></p>
-  <p class="note" style="text-align:center">Подробности, стоимость и рассрочка — на странице курса.</p>
-</section>
-
-</main>
-<footer><div class="wrap">
-  <p>Онлайн-обучение стилю и профессии стилиста.</p>
-  <div class="disc">На этой странице есть партнёрская ссылка. Если ты запишешься на курс по ней, я могу получить небольшое вознаграждение — без доплаты с твоей стороны. Я рекомендую обучение, в которое верю.<br>Реклама. Рекламодатель: Fashion Factory school. erid: 2bL9aMPo2e4BA5qnNJQJwLmmo8</div>
-</div></footer>
-</body></html>
+  <header class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">Найди свой язык стиля</p>
+        <h1>Стиль —<br>это <em>навык.</em></h1>
+        <p class="lead">Научись понимать цвет, форму и вещи в своём гардеробе. Освой стиль для себя — а если захочешь, изучи его как будущую профессию.</p>
+        <div class="actions"><a class="button" href="https://kursy-tut.ru/2785163?erid=2bL9aMPo2e4BA5qnNJQJwLmmo8" target="_blank" rel="nofollow sponsored noopener">Узнать о курсе <span class="arrow" aria-hidden="true">↗</span></a></div>
+        <p class="micro">Онлайн-обучение · можно начать с нуля · для себя и для профессии</p>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация: редакционный мудборд о стиле, силуэтах и палитре">
+        <span class="art-number">Fig. 01 — Personal style</span>
+        <span class="art-stamp">форма<br>цвет<br>характер</span>
+        <span class="art-caption">Личный стиль — внимательность к деталям</span>
+        <svg viewBox="0 0 620 600" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#c9c3b9" stroke-width=".6"/></pattern><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter></defs>
+          <rect width="620" height="600" fill="#dcd7ce"/><rect width="620" height="600" fill="url(#grid)" opacity=".45"/>
+          <rect x="35" y="40" width="270" height="355" fill="#f7f4ee" transform="rotate(-5 35 40)"/>
+          <rect x="52" y="58" width="232" height="293" fill="#b6b1a7"/>
+          <rect x="52" y="58" width="232" height="293" fill="#e9e5de" opacity=".28"/>
+          <path d="M90 302c19-55 28-106 39-157 7-34 15-53 38-62 17-7 38-1 47 16 8 15 12 52 21 82 9 31 25 73 40 120l-56 15-25-82-11 102-90-3-1-31z" fill="#282824"/>
+          <path d="M152 85c8 30 20 48 38 56 12-10 22-26 25-45-11-18-38-27-63-11z" fill="#aaa49a"/>
+          <path d="M107 203l36 15 22-29 27 27 38-18 21 67-145 5z" fill="#f1eee7"/>
+          <path d="M165 226l-12 124M198 222l19 126" stroke="#8b887f" stroke-width="2"/>
+          <path d="M121 91q31-36 67-16" fill="none" stroke="#aaa49a" stroke-width="3"/>
+          <rect x="77" y="370" width="160" height="1" fill="#817d75"/><text x="78" y="389" font-family="Georgia" font-size="10" letter-spacing="2" fill="#504e49">SILHOUETTE STUDY № 01</text>
+          <rect x="353" y="77" width="216" height="162" fill="#f8f5ee" transform="rotate(4 353 77)"/>
+          <text x="376" y="113" font-family="Georgia" font-size="17" font-style="italic" fill="#33322e">soft / structured</text>
+          <path d="M385 190c29-54 42-76 66-73 18 3 22 26 36 31 14 5 28-19 42-27" stroke="#a64f3d" stroke-width="4" fill="none"/>
+          <circle cx="390" cy="188" r="8" fill="#a64f3d"/><circle cx="485" cy="122" r="8" fill="#a64f3d"/><circle cx="529" cy="120" r="8" fill="#a64f3d"/>
+          <rect x="360" y="291" width="216" height="161" fill="#f7f4ed" transform="rotate(-3 360 291)"/>
+          <text x="381" y="326" font-family="Arial" font-size="9" letter-spacing="2" fill="#68645d">PALETTE / AUTUMN NOTES</text>
+          <rect x="382" y="344" width="38" height="75" fill="#9e7664"/><rect x="423" y="344" width="38" height="75" fill="#d2b38e"/><rect x="464" y="344" width="38" height="75" fill="#73735c"/><rect x="505" y="344" width="38" height="75" fill="#453e39"/>
+          <rect x="37" y="447" width="269" height="119" fill="#eee9e1" transform="rotate(2 37 447)"/>
+          <text x="62" y="482" font-family="Georgia" font-size="17" font-style="italic" fill="#292824">A considered wardrobe</text>
+          <path d="M63 504h180" stroke="#9c9589"/><text x="64" y="530" font-family="Arial" font-size="8" letter-spacing="2" fill="#77736b">LESS, BUT MORE YOU</text>
+          <circle cx="322" cy="494" r="47" fill="#c1b8a9"/><circle cx="322" cy="494" r="29" fill="#d9d2c7"/><path d="M322 465v58m-29-29h58" stroke="#817c71" stroke-width="1"/>
+          <rect width="620" height="600" fill="#fff" opacity=".03" filter="url(#grain)"/>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <div class="ticker" aria-label="Темы курса"><div class="ticker-inner"><span>Цвет <b>✳</b></span><span>Силуэт <b>✳</b></span><span>Гардероб <b>✳</b></span><span>Профессия <b>✳</b></span><span>Цвет <b>✳</b></span><span>Гардероб</span></div></div>
+  <main>
+    <section id="learn">
+      <div class="wrap">
+        <div class="section-head"><p class="section-kicker">Сначала — о себе</p><h2>Три точки опоры<br>для <em>своего стиля</em></h2><p>Не случайные покупки, а понимание того, какие цвета, формы и сочетания подходят именно тебе.</p></div>
+        <div class="learn-grid">
+          <article class="learn-card"><div class="learn-visual"><span class="card-index">01 / ЦВЕТ</span><svg viewBox="0 0 400 230" aria-hidden="true"><rect width="400" height="230" fill="#e6e1d9"/><circle cx="204" cy="113" r="80" fill="#f1eee7"/><ellipse cx="204" cy="102" rx="32" ry="42" fill="#c4a28e"/><path d="M174 95q3-48 34-48 31 0 32 49-10-18-32-20-17 0-34 19z" fill="#514239"/><path d="M154 183q6-53 50-53t50 53" fill="#79785f"/><path d="M190 108q13 8 27 0" stroke="#805c4d" fill="none"/><rect x="22" y="39" width="23" height="82" fill="#a75a45"/><rect x="50" y="39" width="23" height="82" fill="#d0ab84"/><rect x="78" y="39" width="23" height="82" fill="#77785f"/><rect x="306" y="39" width="23" height="82" fill="#6b7880"/><rect x="334" y="39" width="23" height="82" fill="#aeb7b6"/><rect x="362" y="39" width="16" height="82" fill="#c5a8a4"/><text x="24" y="207" font-family="Arial" font-size="8" letter-spacing="2" fill="#656159">PERSONAL COLOUR STUDY</text></svg></div><div class="learn-body"><h3>Цветотип</h3><p>Разберись в цветах и оттенках, которые поддерживают твою природную палитру, и научись собирать гармоничные сочетания.</p><span class="tag">Цветовая палитра</span></div></article>
+          <article class="learn-card"><div class="learn-visual"><span class="card-index">02 / ФОРМА</span><svg viewBox="0 0 400 230" aria-hidden="true"><rect width="400" height="230" fill="#dcd8d0"/><path d="M200 35c-14 0-24 11-24 25s10 24 24 24 24-10 24-24-10-25-24-25zm-18 52c-34 8-45 20-49 43l-17 74h45l15-54-7 67h62l-7-67 15 54h45l-17-74c-4-23-15-35-49-43l-18 19z" fill="#77765e"/><path d="M130 143h140M174 143l-12 72m64-72 12 72" stroke="#e9e5dc" stroke-width="2"/><path d="M72 43h70M72 54h49M258 43h70M279 54h49" stroke="#77736b"/><circle cx="81" cy="98" r="3" fill="#a64f3d"/><circle cx="318" cy="98" r="3" fill="#a64f3d"/><path d="M81 98h43m194 0h-43" stroke="#a64f3d" stroke-dasharray="3 4"/><text x="24" y="207" font-family="Arial" font-size="8" letter-spacing="2" fill="#656159">PROPORTION / BALANCE / LINE</text></svg></div><div class="learn-body"><h3>Силуэт</h3><p>Посмотри на пропорции и линии по-новому: как выбирать крой и посадку, чтобы чувствовать себя уверенно и уместно.</p><span class="tag">Форма и пропорции</span></div></article>
+          <article class="learn-card"><div class="learn-visual"><span class="card-index">03 / ГАРДЕРОБ</span><svg viewBox="0 0 400 230" aria-hidden="true"><rect width="400" height="230" fill="#e4dfd7"/><path d="M200 30q0-11 10-11 9 0 9 9 0 6-9 12l-12 11" fill="none" stroke="#373631" stroke-width="3"/><path d="M68 70h264M100 70v120m200-120v120M100 190h200" stroke="#3c3b36" stroke-width="3"/><path d="M129 91l15-14 20 15 18 42-18 6-12-24v71h-28v-71l-12 24-17-8z" fill="#a75a45"/><path d="M200 89l17-13 18 12 20 35-18 10-13-19v64h-28v-64l-14 19-17-10z" fill="#73745d"/><path d="M269 91l14-13 21 12 19 39-16 9-14-23v62h-29v-62l-13 23-17-9z" fill="#c6b69d"/><path d="M128 142h29m43-11h28m42 2h29" stroke="#f4f1eb" stroke-width="1"/><text x="24" y="214" font-family="Arial" font-size="8" letter-spacing="2" fill="#656159">CAPSULE / MIX / REPEAT</text></svg></div><div class="learn-body"><h3>Капсула</h3><p>Собирай вещи в сочетаемый гардероб, планируй покупки осознанно и находи новые образы в уже знакомых вещах.</p><span class="tag">Гардеробная система</span></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="editorial">
+      <div class="wrap editorial-grid"><div><p class="section-kicker">Учись в своём ритме</p><h2>Стиль для себя.<br><em>Или как профессия.</em></h2><p class="editorial-intro">Курс объединяет личную практику и основы работы стилиста. Начни с задачи, которая ближе именно тебе.</p><p class="editorial-note">«Хороший образ начинается не с покупки, а с понимания»</p></div>
+        <div class="path-panels"><article class="path-panel"><h3>Для себя</h3><ul><li>Определять цветовую палитру</li><li>Подбирать формы и посадку вещей</li><li>Собирать капсульный гардероб</li><li>Сочетать цвета, фактуры и принты</li><li>Планировать осознанный шопинг</li></ul><small>Личный стиль в повседневной жизни</small></article><article class="path-panel"><h3>Для профессии</h3><ul><li>Разбирать гардероб под запрос клиента</li><li>Собирать комплекты и рекомендации</li><li>Сопровождать клиента на шопинге</li><li>Оформлять экспертную страницу</li><li>Изучать основы работы с заказчиками</li></ul><small>Профессиональное направление</small></article></div>
+      </div>
+    </section>
+    <section class="audience" id="for-whom"><div class="wrap"><div class="audience-head"><div><p class="section-kicker">Узнаёшь себя?</p><h2>Кому будет близок<br><em>этот курс</em></h2></div><p>Можно прийти за уверенностью в собственных образах или присмотреться к новому профессиональному направлению.</p></div>
+      <div class="aud-grid"><div class="aud-row"><span class="aud-num">01</span><strong>Хочу лучше одеваться</strong><p>Хочется найти свой стиль и выбирать вещи, которые действительно работают вместе.</p></div><div class="aud-row"><span class="aud-num">02</span><strong>Люблю помогать с образами</strong><p>Друзья уже спрашивают совета, а тебе интересно разобраться в теме глубже.</p></div><div class="aud-row"><span class="aud-num">03</span><strong>Думаю о новой профессии</strong><p>Хочется узнать, из чего состоит работа стилиста и подходит ли она именно тебе.</p></div><div class="aud-row"><span class="aud-num">04</span><strong>Нужен гибкий формат</strong><p>Важно изучать материалы онлайн и планировать занятия вокруг привычного расписания.</p></div></div>
+    </div></section>
+    <section class="why-section"><div class="wrap why-layout"><div class="why-copy"><p class="section-kicker">Fashion Factory</p><h2>Понятный путь<br>от базы к <em>практике</em></h2><p>На странице курса можно изучить программу, формат обучения и актуальные условия, чтобы решить, подходит ли он тебе.</p></div><div class="why-grid"><div class="why-item"><span>01 / ФОРМАТ</span><br><b>Онлайн</b><p>Материалы доступны для изучения из дома.</p></div><div class="why-item"><span>02 / СТАРТ</span><br><b>С нуля</b><p>Можно начать без опыта в индустрии моды.</p></div><div class="why-item"><span>03 / ФОКУС</span><br><b>Практика</b><p>Программа включает прикладные задания и разборы.</p></div><div class="why-item"><span>04 / ДЕТАЛИ</span><br><b>Условия</b><p>Актуальная стоимость и содержание — на странице курса.</p></div></div></div></section>
+    <section class="final-cta" id="course"><div class="wrap"><p class="section-kicker">Следующий шаг</p><h2>Посмотри, как устроен<br>курс стилиста</h2><p>Ознакомься с программой и условиями на сайте курса.</p><a class="button" href="https://kursy-tut.ru/2785163?erid=2bL9aMPo2e4BA5qnNJQJwLmmo8" target="_blank" rel="nofollow sponsored noopener">Перейти к программе <span class="arrow" aria-hidden="true">↗</span></a><p class="micro">Подробности, стоимость и доступные варианты обучения — на странице курса.</p></div></section>
+  </main>
+  <footer><div class="wrap"><div class="footer-top"><div class="footer-brand">FORMA<span>Исследуй свой стиль</span></div><div class="footer-meta">Онлайн-обучение стилю<br>для себя и профессии стилиста</div></div><div class="disc">На этой странице есть партнёрская ссылка. Если ты запишешься на курс по ней, я могу получить небольшое вознаграждение — без доплаты с твоей стороны. Я рекомендую обучение, в которое верю.<br><p class="footer-ad">Реклама · Рекламодатель: Fashion Factory school · erid: 2bL9aMPo2e4BA5qnNJQJwLmmo8</p></div><div class="footer-end">Стиль — это наблюдение, выбор и практика</div></div></footer>
+</body>
+</html>
